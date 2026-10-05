@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  verification: {
+  google: "kvqNIb4bgTQKX15IxG25ANjtaQSV7c0sMgnSbWNet9A",
+},
   title: "Lavanya S. | Software Engineer | AI & Automation",
 
   description:
