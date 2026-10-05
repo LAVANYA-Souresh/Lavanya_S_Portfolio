@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 
   creator: "Lavanya S.",
 
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://lavanyasportfolio-rho.vercel.app"),
 
   openGraph: {
     title: "Lavanya S. | Software Engineer | AI & Automation",
@@ -72,7 +72,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     jobTitle: "Software Engineer",
     description:
        "Software Engineer focused on AI, automation, backend development, and intelligent software systems.",
-    url: "http://localhost:3000",
+    url: "https://lavanyasportfolio-rho.vercel.app",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Puducherry",

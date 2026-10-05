@@ -3,13 +3,13 @@ import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "http://localhost:3000/",
+      url: "https://lavanyasportfolio-rho.vercel.app/",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "http://localhost:3000/projects/ai-business-operations",
+      url: "https://lavanyasportfolio-rho.vercel.app/projects/ai-business-operations",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
